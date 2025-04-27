@@ -163,7 +163,7 @@ public class SimpleDbContext : DbContext
 	
 	protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 	{
-		optionsBuilder.UseSqlServer("Server=localhost;Database=ExpressionDb;User Id=sa;Password=131564471;TrustServerCertificate=True;");
+		optionsBuilder.UseSqlServer("Server=localhost;Database=ExpressionDb;TrustServerCertificate=True;");
 	}
 }
 
